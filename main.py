@@ -10,7 +10,7 @@ from queue import Queue
 import threading
 import time
 
-from unrar import rarfile
+
 
 # 配置区域
 
@@ -96,6 +96,8 @@ if __name__ == "__main__":
 
     s = 1
 
+    if '.rar' in file_name:
+        from unrar import rarfile
     for pwd in passwords:
         pwd_queue.put(clean_pwd(pwd))
 
