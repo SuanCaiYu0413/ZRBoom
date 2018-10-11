@@ -22,6 +22,8 @@ git clone https://github.com/SuanCaiYu0413/ZRBoom.git
 
 cd ZRBoom
 
+pip install -r requirements.txt
+
 python main.py -h #帮助说明
 
 python main.py -f test.zip -d wordlist.txt -t 10 #测试使用
