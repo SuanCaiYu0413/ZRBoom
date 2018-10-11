@@ -19,6 +19,7 @@
 
 ```bash
 git clone https://github.com/SuanCaiYu0413/ZRBoom.git
+
 cd ZRBoom
 
 python main.py -h #帮助说明
